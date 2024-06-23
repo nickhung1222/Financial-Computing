@@ -7,10 +7,10 @@
 目前總共有五個作業：
 
 1. **European Option 定價**：使用 Black-Scholes 模型進行定價。
-2. **American Option 定價**：使用 Binomial Tree 模型進行定價。
-3. **新奇選擇權定價1**：介紹了一種特殊類型的選擇權並進行定價。
-4. **新奇選擇權定價2**：介紹另一種特殊類型的選擇權並進行定價。
-5. **新奇選擇權定價3**：介紹第三種特殊類型的選擇權並進行定價。
+2. **American Option 定價**：使用 Binomial Tree 模型進行定價，並運用Backward Induction。
+3. **Maximum Rainbow Option**：使用Monte-Carlo Simulation 並使用各種不同數值方法去控制變異數降低C.I.。
+4. **Lookback Put**：定價回顧選擇權，使用Forward Induction尋找各個節點下的最大值，並記錄起來，也用使用不同方式來搜尋。
+5. **Arithmetic Average Call**：Sequential search (the traditional way)、Binary search、Linear interpolation method 三種不同搜尋演算法來尋找相對應的值。
 
 ## 課程總結
 
